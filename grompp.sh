@@ -1,7 +1,7 @@
 #!/bin/bash
 module load gnu-openmpi/8.2.1-4.0.0
 if [ ! -n "$1" ] ;then
-	echo "sample [old file] [new name] [#process] [quene] [repeat times]" 
+	echo "sample [old file] [new name] [#process] [queue] [repeat times]" 
 else
 
 	for file in ./*.top
